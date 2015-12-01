@@ -1,0 +1,15 @@
+# Goal
+
+tue_msgs/GripperCommand command
+
+---
+
+# Result
+
+tue_msgs/GripperMeasurement measurement
+
+---
+
+# Feedback
+
+tue_msgs/GripperMeasurement measurement
