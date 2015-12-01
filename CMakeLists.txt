@@ -4,6 +4,7 @@ project(tue_manipulation_msgs)
 find_package(catkin REQUIRED COMPONENTS
   message_generation
   tue_msgs
+  actionlib_msgs
 )
 
 add_message_files(
@@ -20,8 +21,9 @@ add_action_files(
 generate_messages(
   DEPENDENCIES
     tue_msgs
+    actionlib_msgs
 )
 
 catkin_package(
- CATKIN_DEPENDS message_runtime tue_msgs
+ CATKIN_DEPENDS message_runtime tue_msgs actionlib_msgs
 )
