@@ -1,7 +1,7 @@
 # Goal
 
 bool PERFORM_PRE_GRASP
-cart_pos goal
+cart_pos[] goals
 cart_pos delta
 
 # In case of PERFORM_PRE_GRASP
